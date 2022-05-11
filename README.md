@@ -12,11 +12,12 @@ An in-progress fork of Rebirth\SimpleTorrent lib with fixes for UWP
 ### Example Usage:
  
  ```
- using SimpleTorrentUWP.Torrent
+using SimpleTorrentUWP.Torrent
+public sealed partial class MainPage : Page
+    {
+        public static Client TorrentClient;
 
-public static Client TorrentClient;
-
-        public Main()
+        public MainPage()
         {
             this.InitializeComponent();
 		// Open torrent file
@@ -49,5 +50,5 @@ public static Client TorrentClient;
                     TorrentClient.Start();
                 }
             }
-
-        }
+	 }
+      }
