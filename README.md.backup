@@ -2,7 +2,7 @@
 An in-progress fork of Rebirth\SimpleTorrent lib with fixes for UWP  
   
 ### Current issues:  
-- Timeout exception when connecting to TCPClient with *any* torrent
+- Timeout exception when connecting to TCPClient
 
 ### Changes:  
 - Added use of StorageFile to allow access to files instead of hard paths  
