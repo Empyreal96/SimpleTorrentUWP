@@ -49,6 +49,6 @@ public sealed partial class MainPage : Page
                     await TorrentClient.loadTorrent(torrent, DownloadFolder.Path);
                     TorrentClient.Start();
                 }
-            }
-	 }
-      }
+             }
+		}
+}
